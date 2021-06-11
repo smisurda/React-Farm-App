@@ -6,7 +6,7 @@ After checking out my version of the project, please navigate to the directory r
 In a browser, load the page here: 
 localhost:3000
 
-To run the Jest test suite, enter npm test in a terminal window.
+To run the Jest test suite, enter npm test in a terminal window. Note, Jest will not run with an older version of Node. If you are experiencing difficulty running the tests, consider using NVM to update your version temporarily. 
 
 ---
 
