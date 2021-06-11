@@ -1,0 +1,36 @@
+{
+  "name": "trace_gen_fullstack",
+  "version": "1.0.0",
+  "description": "fullstack technical challenge",
+  "main": "index.js",
+  "scripts": {
+    "react-dev": "webpack -d --watch",
+    "server-dev": "nodemon server/server.js",
+    "start": "webpack && node server/server.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
+    "babel-core": "^6.23.1",
+    "babel-jest": "^27.0.2",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "jest": "^27.0.4",
+    "nodemon": "^2.0.4",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/data-grid": "^4.0.0-alpha.31",
+    "@material-ui/icons": "^4.11.2",
+    "express": "^4.15.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "supertest": "^6.1.3"
+  }
+}
