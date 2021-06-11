@@ -1,5 +1,5 @@
 1) Instructions on how to run application and tests
-After checking out my version of the project, please navigate to the directory root, and execute the following steps:
+After checking out my version of the project, please navigate to the directory root (ReactFarm-App/farm-app-fullstack), and execute the following steps:
 	npm install
 	npm start
 
